@@ -169,7 +169,7 @@ def findInfoInImage(image_path):
   return contour_coordinates, labels_info
 
 if __name__ == "__main__":
-    image_path='<path-of-image>'
+    image_path='/usr/app/src/img.jpg'
     contours , labels = findInfoInImage(image_path)
     print(contours)
     print(labels)
