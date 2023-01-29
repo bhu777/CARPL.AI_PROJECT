@@ -8,4 +8,6 @@ WORKDIR /usr/app/src
 
 COPY carplaipro.py ./
 
+COPY img.jpg ./
+
 CMD ["python3", "./carplaipro.py"]
